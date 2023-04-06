@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: "Mulish-Regular" ;
+    src: url(./fonts/Mulish-Regular.ttf);
+}
+@font-face {
+    font-family:'NotoSansArabic-ExtraBold';
+    src: url(./fonts/NotoSansArabic-ExtraBold.ttf);
+}
+@font-face {
+    font-family:'NotoSansArabic-ExtraLight';
+    src: url(./fonts/NotoSansArabic-ExtraLight.ttf);
+}
+@font-face {
+    font-family:'Oxygen-Regular';
+    src: url(./fonts/Oxygen-Regular.ttf);
+}
+body{
+    background: #FFFFFF;
+    
+}
+.headermenu {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.navbar {
+    margin-left: 565px;
+    padding-left: 20px;
+}
+.img1 {
+    margin-top: 19px;
+    margin-left: 120px;
+}
+.menu {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: "Mulish-Regular" ;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+   text-decoration: none;
+   color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.textcontainer{
+    margin-top: 138px;
+    margin-left: 120px;
+    
+    width: 603px;
+    height: 424px;
+}
+.head {
+    font-family:'NotoSansArabic-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 63px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.text {
+    margin-top: 35px;
+    font-family:'NotoSansArabic-ExtraLight';
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 51px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+ 
+button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 30px;
+gap: 10px;
+margin-top: 35px;
+width: 206px;
+height: 75px;
+cursor: pointer;
+border: none;
+background: rgba(85, 85, 255, 0.81);
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+button > p {
+    font-family:'Oxygen-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.img2 {
+    margin-top: -365px;
+    margin-left: 800px;
+    position: absolute;
+    
+}
+.box {
+    width: 1440px;
+   
+}
